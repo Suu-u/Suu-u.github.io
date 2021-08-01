@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on ただの日記にタイトルなんて要るか</title>
-    <link>http://Suu-u.github.io/tags/</link>
+    <link>http://suu-u.github.io/tags/</link>
     <description>Recent content in Tags on ただの日記にタイトルなんて要るか</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <copyright>© sal_pipr</copyright><atom:link href="http://Suu-u.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>© sal_pipr</copyright><atom:link href="http://suu-u.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
