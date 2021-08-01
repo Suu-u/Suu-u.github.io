@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ただの日記にタイトルなんて要るか</title>
+    <link>http://Suu-u.github.io/</link>
+    <description>Recent content on ただの日記にタイトルなんて要るか</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <copyright>© sal_pipr</copyright><atom:link href="http://Suu-u.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>http://Suu-u.github.io/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://Suu-u.github.io/about/</guid>
+      <description>🍳( sal_pipr / ₍₍⁽⁽φ( &amp;lsquo;༥&amp;rsquo; )₎₎⁾⁾ ) の夏休みの日記置き場
+毎年恒例の「存在が夏休みの日記を最後まで書き続けられない祭り」に便乗してみただけ</description>
+    </item>
+    
+  </channel>
+</rss>
