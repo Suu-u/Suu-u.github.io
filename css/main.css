@@ -431,6 +431,15 @@ ul {
     text-align: right;
 }
 
+:not(pre) > code {
+    font-family: "Cica", "Menlo";
+    display: inline-block;
+    padding: 0em 0.3em; /* 文字周りの余白 */
+    color: #444; /* 文字色 */
+    background-color: #e7edf3;
+    border-radius: 3px; /* 角丸 */
+  }
+
 @media (max-width: 900px) {
     body {
         padding: 20px;
