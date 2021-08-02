@@ -442,7 +442,6 @@ ul {
 @media (max-width: 900px) {
     body {
         padding: 20px;
-        font-size: 0.875em;
     }
 
     h1 {
@@ -486,6 +485,7 @@ ul {
     .header .nav.social {
         min-width: auto;
         margin: 0;
+        font-size: 0.9em;
     }
     .header .site-description {
         font-size: 1em;
