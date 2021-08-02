@@ -482,10 +482,12 @@ ul {
 }
 
 @media (max-width: 400px) {
+    .body {
+        font-size: 0.9em;
+    }
     .header .nav.social {
         min-width: auto;
         margin: 0;
-        font-size: 0.9em;
     }
     .header .site-description {
         font-size: 1em;
