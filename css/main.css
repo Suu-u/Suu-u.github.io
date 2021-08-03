@@ -430,11 +430,14 @@ ul {
     text-align: right;
 }
 
+code {
+    font-family: "Cica", "Menlo";
+}
+
 :not(pre) > code {
     font-family: "Cica", "Menlo";
     display: inline-block;
     padding: 0em 0.3em;
-    color: #444;
     background-color: #f7f7f7;
     border-radius: 3px;
 }
@@ -459,6 +462,7 @@ ul {
     h4 {
         font-size: 1rem;
     }
+
 
     .container {
         margin-top: 10px;
