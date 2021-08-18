@@ -7,11 +7,11 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <copyright>© sal_pipr</copyright>
-    <lastBuildDate>Tue, 17 Aug 2021 23:09:30 +0900</lastBuildDate><atom:link href="https://suu-u.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 18 Aug 2021 22:27:12 +0900</lastBuildDate><atom:link href="https://suu-u.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>WACCA</title>
       <link>https://suu-u.github.io/tags/wacca/</link>
-      <pubDate>Tue, 17 Aug 2021 23:09:30 +0900</pubDate>
+      <pubDate>Wed, 18 Aug 2021 22:27:12 +0900</pubDate>
       
       <guid>https://suu-u.github.io/tags/wacca/</guid>
       <description></description>
@@ -20,9 +20,18 @@
     <item>
       <title>音ゲー</title>
       <link>https://suu-u.github.io/tags/%E9%9F%B3%E3%82%B2%E3%83%BC/</link>
-      <pubDate>Tue, 17 Aug 2021 23:09:30 +0900</pubDate>
+      <pubDate>Wed, 18 Aug 2021 22:27:12 +0900</pubDate>
       
       <guid>https://suu-u.github.io/tags/%E9%9F%B3%E3%82%B2%E3%83%BC/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>飯</title>
+      <link>https://suu-u.github.io/tags/%E9%A3%AF/</link>
+      <pubDate>Wed, 18 Aug 2021 22:27:12 +0900</pubDate>
+      
+      <guid>https://suu-u.github.io/tags/%E9%A3%AF/</guid>
       <description></description>
     </item>
     
@@ -68,15 +77,6 @@
       <pubDate>Sat, 14 Aug 2021 20:36:13 +0900</pubDate>
       
       <guid>https://suu-u.github.io/tags/%E8%B2%B7%E3%81%84%E7%89%A9/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>飯</title>
-      <link>https://suu-u.github.io/tags/%E9%A3%AF/</link>
-      <pubDate>Sat, 14 Aug 2021 20:36:13 +0900</pubDate>
-      
-      <guid>https://suu-u.github.io/tags/%E9%A3%AF/</guid>
       <description></description>
     </item>
     
