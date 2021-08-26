@@ -2,14 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://suu-u.github.io/tags/caelyta/</loc>
+    <lastmod>2021-08-25T11:51:31+09:00</lastmod>
+  </url><url>
     <loc>https://suu-u.github.io/posts/</loc>
-    <lastmod>2021-08-24T22:55:29+09:00</lastmod>
+    <lastmod>2021-08-25T11:51:31+09:00</lastmod>
   </url><url>
     <loc>https://suu-u.github.io/tags/</loc>
-    <lastmod>2021-08-24T22:55:29+09:00</lastmod>
+    <lastmod>2021-08-25T11:51:31+09:00</lastmod>
   </url><url>
     <loc>https://suu-u.github.io/</loc>
-    <lastmod>2021-08-24T22:55:29+09:00</lastmod>
+    <lastmod>2021-08-25T11:51:31+09:00</lastmod>
+  </url><url>
+    <loc>https://suu-u.github.io/posts/210825/</loc>
+    <lastmod>2021-08-25T11:51:31+09:00</lastmod>
+  </url><url>
+    <loc>https://suu-u.github.io/tags/%E8%B2%B7%E3%81%84%E7%89%A9/</loc>
+    <lastmod>2021-08-25T11:51:31+09:00</lastmod>
+  </url><url>
+    <loc>https://suu-u.github.io/tags/%E9%9F%B3%E3%82%B2%E3%83%BC/</loc>
+    <lastmod>2021-08-25T11:51:31+09:00</lastmod>
   </url><url>
     <loc>https://suu-u.github.io/posts/210824/</loc>
     <lastmod>2021-08-24T22:55:29+09:00</lastmod>
@@ -24,9 +36,6 @@
     <lastmod>2021-08-23T22:19:19+09:00</lastmod>
   </url><url>
     <loc>https://suu-u.github.io/tags/wacca/</loc>
-    <lastmod>2021-08-22T22:02:51+09:00</lastmod>
-  </url><url>
-    <loc>https://suu-u.github.io/tags/%E9%9F%B3%E3%82%B2%E3%83%BC/</loc>
     <lastmod>2021-08-22T22:02:51+09:00</lastmod>
   </url><url>
     <loc>https://suu-u.github.io/posts/210822/</loc>
@@ -67,12 +76,6 @@
   </url><url>
     <loc>https://suu-u.github.io/posts/210814/</loc>
     <lastmod>2021-08-14T20:36:13+09:00</lastmod>
-  </url><url>
-    <loc>https://suu-u.github.io/tags/%E8%B2%B7%E3%81%84%E7%89%A9/</loc>
-    <lastmod>2021-08-14T20:36:13+09:00</lastmod>
-  </url><url>
-    <loc>https://suu-u.github.io/tags/caelyta/</loc>
-    <lastmod>2021-08-13T08:18:03+09:00</lastmod>
   </url><url>
     <loc>https://suu-u.github.io/posts/210813/</loc>
     <lastmod>2021-08-13T08:18:03+09:00</lastmod>
