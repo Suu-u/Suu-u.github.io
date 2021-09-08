@@ -7,7 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <copyright>© sal_pipr</copyright>
-    <lastBuildDate>Mon, 16 Aug 2021 22:34:47 +0900</lastBuildDate><atom:link href="https://suu-u.github.io/tags/%E3%81%B7%E3%82%88/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 06 Sep 2021 19:49:09 +0900</lastBuildDate><atom:link href="https://suu-u.github.io/tags/%E3%81%B7%E3%82%88/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>わくわく趣味進捗</title>
+      <link>https://suu-u.github.io/posts/210904/</link>
+      <pubDate>Mon, 06 Sep 2021 19:49:09 +0900</pubDate>
+      
+      <guid>https://suu-u.github.io/posts/210904/</guid>
+      <description>ちまちまぴいちょんと戯れています。前から実はひっそりと公開していた（そして今もひっそりと公開し続けている）ぴいちょんでWACCAのレート対象曲一覧を出力できるツールがやっとReverseに対応しました1。遅くなってすまんね。
+今まではバージョンをS, L, Rの一文字で管理していたので、まさかの新バージョンReverseが頭文字被りとかいう事実に密かにキレていたりしましたが、対応が遅れていたのは別の理由があってです。というのもですね、通称「別日追加inf」と呼んでいるんですけれども。
+たとえばQuonは稼働開始収録曲ですが、infernoが追加されたのはWACCA Lilyです。このinfernoは他の難易度と追加バージョンが異なることになりますが、なんとWACCAさんこのバージョンの違いをしっかりレートに反映させているそう。Reverseなら、HELL FLAMEにinfernoが追加されたので、同じ曲でのexpertは旧枠、infernoは新枠対象曲としてレート計算がされることになります。今はこれら含めて5曲別日追加infが存在するのかな？これへの対応が想像以上に面倒くさかった。
+  WACCAプレイヤーにぴいちょん環境構築を強いるというとんでもない代物なので、大々的に告知をするのはまだ避けています。もし知人に需要がありそうかつ使えそうな方がいたら、口コミで広げてもらう分には全然大丈夫です。一応可能な範囲で「他人でも読めるコード」を目指して書いているので、何かしらレビューらしきことをしてくれる物好きさんが見つかるとうれしかったりする。&amp;#160;&amp;#x21a9;&amp;#xfe0e;
+   </description>
+    </item>
+    
     <item>
       <title>祝！夏休み開始</title>
       <link>https://suu-u.github.io/posts/210816/</link>
