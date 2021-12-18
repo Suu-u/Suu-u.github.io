@@ -474,6 +474,7 @@ code {
 
 @media (max-width: 900px) {
     body {
+        font-size: 12px;
         padding: 20px;
     }
 
