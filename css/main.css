@@ -474,7 +474,6 @@ code {
 
 @media (max-width: 900px) {
     body {
-        font-size: 12px;
         padding: 20px;
     }
 
@@ -517,6 +516,9 @@ code {
 }
 
 @media (max-width: 400px) {
+    body {
+        font-size: 12px;
+    }
     .header .nav.social {
         min-width: auto;
         margin: 0;
