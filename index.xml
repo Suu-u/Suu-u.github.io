@@ -7,7 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <copyright>© sal_pipr</copyright>
-    <lastBuildDate>Sat, 31 Dec 2022 20:23:15 +0900</lastBuildDate><atom:link href="https://suu-u.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 11 Nov 2023 22:34:11 +0900</lastBuildDate><atom:link href="https://suu-u.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ひと区切り</title>
+      <link>https://suu-u.github.io/posts/231111/</link>
+      <pubDate>Sat, 11 Nov 2023 22:34:11 +0900</pubDate>
+      
+      <guid>https://suu-u.github.io/posts/231111/</guid>
+      <description>久しぶりにこのサイトを更新する。
+このサイトは元々、大学の友人が夏休みに日記を書いていたのに便乗して作ったもの。読み返すと、友人に唆されて親指シフトを始めたときの記事が出てきて面白い。
+せっかくよいプラットフォームが整っているので、自作キーボード関連の記事を公開する場として使おうかと思っている。忘れぬうちにビルドログを残しておきたいし、親指シフトから今の新下駄配列に至るまでの経緯も書き起こしてみたいし。そして、そもそも新配列を練習するには自分の言葉を自分で書き留める作業が必要不可欠だし。
+自作キーボードからお会いした方に古い記事を読まれてしまうのは少し恥ずかしいけれど、仕方ない。そもそもgithub.ioなので研究室関連の人間には筒抜けである。
+ということで、また不定期でぼちぼちやっていきます。前から見てくれてた人も、新しく来てくれた方も、よしなに。</description>
+    </item>
+    
     <item>
       <title>年の瀬に見た原点</title>
       <link>https://suu-u.github.io/posts/221231/</link>
