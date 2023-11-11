@@ -13,7 +13,6 @@
 <meta property="og:url" content="https://suu-u.github.io/posts/210904/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2021-09-04T19:49:09+09:00" />
 <meta property="article:modified_time" content="2021-09-04T19:49:09+09:00" />
-
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="わくわく趣味進捗"/>
 <meta name="twitter:description" content="ちまちまぴいちょんと戯れています"/>
@@ -101,37 +100,37 @@
 <p>今まではバージョンをS, L, Rの一文字で管理していたので、まさかの新バージョンReverseが頭文字被りとかいう事実に密かにキレていたりしましたが、対応が遅れていたのは別の理由があってです。というのも、通称「別日追加inf」と呼んでいるんですけれども。</p>
 <p>たとえばQuonは稼働開始収録曲ですが、infernoが追加されたのはWACCA Lilyです。このinfernoは他の難易度と追加バージョンが異なることになりますが、なんとWACCAさんこのバージョンの違いをしっかりレートに反映させているそう。Reverseなら、HELL FLAMEにinfernoが追加されたので、この曲のexpertは旧枠、infernoは新枠対象曲としてレート計算がされることになります。今はこれら含めて5曲別日追加infが存在するのかな？これへの対応が想像以上に面倒くさかった。</p>
 <p>前提として、既存の定数データcsvを可能な限り変更したくない。一番手っ取り早いのは全難易度一律でバージョンのデータをcsvに保存しておくことですが、これはあんまりやりたくない。そもそもたった5曲のために全曲データ弄る必要ある？？？になってしまう。というわけで一度思いついたのは「別日追加infはcsv上では別の楽曲かのように記録しておく」でした。なにかというと、</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">title,version,genre,h_const,e_const,i_const
-Quon,S,to,10.6,12.8,NA
-Quon,L,to,NA,NA,13.9
-</code></pre></div><p>と定数データを2行に分けて書いておいて、コード側で上手く読み込めばいいのでは？と思ったわけです。ところがどっこい。現状ぴいちょんコード上ではcsvの各行をlistにしてべしべし読み込んでいるわけですが、これとスコアに対して同様に作ったlistとからレーティング値を計算する時に、定数listとスコアlistの対応が1対1ではなくなってしまいます。なにかというと、少なくともinf譜面のスコアが存在する場合には、定数list上に対応する楽曲の要素が1つあるのか2つあるのかわからないのでその分追加で探索しないといけないという。うわあやりたくねえ。じゃあめんどくさいから各曲全探索します？うおおおおやりたくねえええ。ので別の手段で対応しました。結局csvをそれなりにいじる羽目になっちゃったんですけど、<code>i_version</code>という要素を追加してinfのバージョンが同じかどうかを覚えておくようにしました。</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">title,version,genre,h_const,e_const,i_const,i_version
-Quon,S,to,10.6,12.8,13.9,L
-eden,R,to,10.5,13.3,14.1,R
-</code></pre></div><p>例としてedenさんにも出てきてもらいました。あとはよしなに読み込んでやれば、for文ぐるぐる処理の構造自体はそこまでいじらなくてもなんとか対応できるようになりました。</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>title,version,genre,h_const,e_const,i_const
+</span></span><span style="display:flex;"><span>Quon,S,to,10.6,12.8,NA
+</span></span><span style="display:flex;"><span>Quon,L,to,NA,NA,13.9
+</span></span></code></pre></div><p>と定数データを2行に分けて書いておいて、コード側で上手く読み込めばいいのでは？と思ったわけです。ところがどっこい。現状ぴいちょんコード上ではcsvの各行をlistにしてべしべし読み込んでいるわけですが、これとスコアに対して同様に作ったlistとからレーティング値を計算する時に、定数listとスコアlistの対応が1対1ではなくなってしまいます。なにかというと、少なくともinf譜面のスコアが存在する場合には、定数list上に対応する楽曲の要素が1つあるのか2つあるのかわからないのでその分追加で探索しないといけないという。うわあやりたくねえ。じゃあめんどくさいから各曲全探索します？うおおおおやりたくねえええ。ので別の手段で対応しました。結局csvをそれなりにいじる羽目になっちゃったんですけど、<code>i_version</code>という要素を追加してinfのバージョンが同じかどうかを覚えておくようにしました。</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>title,version,genre,h_const,e_const,i_const,i_version
+</span></span><span style="display:flex;"><span>Quon,S,to,10.6,12.8,13.9,L
+</span></span><span style="display:flex;"><span>eden,R,to,10.5,13.3,14.1,R
+</span></span></code></pre></div><p>例としてedenさんにも出てきてもらいました。あとはよしなに読み込んでやれば、for文ぐるぐる処理の構造自体はそこまでいじらなくてもなんとか対応できるようになりました。</p>
 <p>これ日記書きながら思ってたんですけど、csv読み込むところをめんどくさがらずに曲タイトルをkey、それ以外の要素をtapleでvalueに突っ込んだ辞書型を準備すれば一発だったのでは？？？になっています。そうだね1対1対応守れる気がするねこれなら。新しめのぴいちょんだとちゃんと順序保ってくれるらしいですし。また対応し直しですか……気が向けば……<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>。</p>
 <hr>
 <p>久しぶりにおおおで飯を食いました。</p>
 <p><img src="../../images/210904_1.jpg" alt=""></p>
 <p>凌駕のラーメン、何ヶ月ぶりだろう。ボリュームがよいので、お腹ががっつり空いてるときはまたここに来てもいいかもしれません。つけ麺派ではあるのだけれど、もやしもそれはそれで美味しいので。</p>
-<section class="footnotes" role="doc-endnotes">
+<div class="footnotes" role="doc-endnotes">
 <hr>
 <ol>
-<li id="fn:1" role="doc-endnote">
+<li id="fn:1">
 <p>WACCAプレイヤーにぴいちょん環境構築を強いるというとんでもない代物なので、大々的に告知をするのは避けています。もし知人に需要がありそうかつ使えそうな方がいたら、口コミで広げてもらう分には全然大丈夫です。一応可能な範囲で「他人でも読めるコード」を目指して書いているので、何かしらレビューらしきことをしてくれる物好きさんが見つかるとうれしかったりする。&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
-<li id="fn:2" role="doc-endnote">
+<li id="fn:2">
 <p>実は気が向く可能性は高いです。今の定数データcsvは一種の秘伝のタレ的な何かと化していて、あれの順序を保ったままレート計算をすると公式マイページの対象曲一覧の順序と一致するという素敵仕様があったりするのです。が、別日追加infの対応がこれを保てない形になってしまったので、おいおい修正する気がします。まあ読み込み部分だけだし。&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 </ol>
-</section>
+</div>
 
 			</div>
 		</div>
 	</div>
 	<div class="footer wrapper">
 	<nav class="nav">
-		<div>2022  © sal_pipr |  <a href="https://github.com/knadh/hugo-ink">Ink</a> theme on <a href="https://gohugo.io">Hugo</a></div>
+		<div>2023  © sal_pipr |  <a href="https://github.com/knadh/hugo-ink">Ink</a> theme on <a href="https://gohugo.io">Hugo</a></div>
 	</nav>
 </div>
 

@@ -6,14 +6,13 @@
 	<meta itemprop="name" content="なにもない日はTLの備忘録を書こう">
 <meta itemprop="description" content="今日のTLはおもしろかったので"><meta itemprop="datePublished" content="2021-08-12T21:45:20+09:00" />
 <meta itemprop="dateModified" content="2021-08-12T21:45:20+09:00" />
-<meta itemprop="wordCount" content="161">
+<meta itemprop="wordCount" content="137">
 <meta itemprop="keywords" content="おえかき,ぷよ," /><meta property="og:title" content="なにもない日はTLの備忘録を書こう" />
 <meta property="og:description" content="今日のTLはおもしろかったので" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://suu-u.github.io/posts/210812/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2021-08-12T21:45:20+09:00" />
 <meta property="article:modified_time" content="2021-08-12T21:45:20+09:00" />
-
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="なにもない日はTLの備忘録を書こう"/>
 <meta name="twitter:description" content="今日のTLはおもしろかったので"/>
@@ -97,14 +96,8 @@
 			<div class="markdown">
 				<p>今日のTLはおもしろかったので。というか私が変なこと言い出しただけですけど。</p>
 <p>発端は<a href="https://twitter.com/kokohorewoof">鴨</a>のツイート。</p>
-<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">よ、世の中のJKって生き物はしゃがむ時にスカート巻き込んで座らないのですか！？<br>てっきり…困った</p>&mdash; 鴨はあったかいかも (@kokohorewoof) <a href="https://twitter.com/kokohorewoof/status/1425720760904032257?ref_src=twsrc%5Etfw">August 12, 2021</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">調べてもスカート巻き込んでる写真とかイラストが全然出てこない<br>かといって巻き込まない座り方させるとスカートがちょっと長すぎて地面に付くなあ<br>困った</p>&mdash; 鴨はあったかいかも (@kokohorewoof) <a href="https://twitter.com/kokohorewoof/status/1425721774398865411?ref_src=twsrc%5Etfw">August 12, 2021</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">世間のJK、スカート短すぎてしゃがむ時に巻き込めないんだ…</p>&mdash; 鴨はあったかいかも (@kokohorewoof) <a href="https://twitter.com/kokohorewoof/status/1425722854029492231?ref_src=twsrc%5Etfw">August 12, 2021</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <p>労働後にこれを読んだ🍳が騒ぎ始める。</p>
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">これ指してる状況めちゃくちゃわかるし自分は当時からずっと巻き込ませてきた（うちは校則きびちい田舎学校でスカート短くできなかったしセーラーでスカート短いのはダサい）けど世間のJKスカート短すぎてそれしないってまじ！？！？！？！？！？</p>&mdash; ₍₍⁽⁽φ( &#39;༥&#39; )₎₎⁾⁾ (@slpp_bild) <a href="https://twitter.com/slpp_bild/status/1425745897741197312?ref_src=twsrc%5Etfw">August 12, 2021</a></blockquote>
@@ -144,38 +137,38 @@
 <hr>
 <p>そういえばπの課題の〆切をすぎたので、昔話を掘り返そうと思う。</p>
 <p>構文解析器を作る中間課題で、って言っても伝わらないのでざっと解説すると簡単なCのプログラムを読み込んで構文木を生成してから逆変換して元のプログラムに戻すっていう一連の流れを実装する課題で、（まあもっとざっくりしちゃうと「読み込んだプログラムと同じものが出力されればおっけー」）とりあえず出力できたかな？って段階の実行結果がこんな感じだったんだよね。</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c" data-lang="c"><span style="color:#2b91af">void</span> foo()
-{    {    {    <span style="color:#00f">if</span> (1) {
-    {        <span style="color:#00f">while</span> (1) {            <span style="color:#00f">if</span> (0) {
-            {                10                <span style="color:#a31515">&#34;hello, world</span><span style="color:#a31515">\n</span><span style="color:#a31515">&#34;</span>                <span style="color:#a31515">&#39;\n&#39;</span>}
-} <span style="color:#00f">else</span>             {                <span style="color:#00f">return</span> ;
-}
-}
-}
-}
-}
-}
-}
-<span style="color:#2b91af">int</span> main()
-{    foo()}
-</code></pre></div><p>これ、出力時にインデントが上手くいってなかっただけなんだけど、当時の自分はこの出力結果のヤバさにツボってしまって笑いが止まらなくてその後30分進捗が消し飛んだ。いや、だってやばいでしょこれ。どんだけあたまおかしくなっても人間にこのコードは書けない。インデント実装したはずなのにインデント一切ついてない<code>}</code>祭りとか左に謎の空間がある<code>{    foo()}</code>とかおもしろすぎる。<code>void foo()</code>の下2行の<code>{</code>揃ってないのとかなんでこんなことになったんや。ちなみに他にもミスがあってコンパイル通らないんですけどね。ここに貼るとご丁寧にシンタックスハイライトがつくのがなおさらおもしろい。</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c" data-lang="c"><span style="display:flex;"><span><span style="color:#2b91af">void</span> foo()
+</span></span><span style="display:flex;"><span>{    {    {    <span style="color:#00f">if</span> (1) {
+</span></span><span style="display:flex;"><span>    {        <span style="color:#00f">while</span> (1) {            <span style="color:#00f">if</span> (0) {
+</span></span><span style="display:flex;"><span>            {                10                <span style="color:#a31515">&#34;hello, world</span><span style="color:#a31515">\n</span><span style="color:#a31515">&#34;</span>                <span style="color:#a31515">&#39;\n&#39;</span>}
+</span></span><span style="display:flex;"><span>} <span style="color:#00f">else</span>             {                <span style="color:#00f">return</span> ;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span><span style="color:#2b91af">int</span> main()
+</span></span><span style="display:flex;"><span>{    foo()}
+</span></span></code></pre></div><p>これ、出力時にインデントが上手くいってなかっただけなんだけど、当時の自分はこの出力結果のヤバさにツボってしまって笑いが止まらなくてその後30分進捗が消し飛んだ。いや、だってやばいでしょこれ。どんだけあたまおかしくなっても人間にこのコードは書けない。インデント実装したはずなのにインデント一切ついてない<code>}</code>祭りとか左に謎の空間がある<code>{    foo()}</code>とかおもしろすぎる。<code>void foo()</code>の下2行の<code>{</code>揃ってないのとかなんでこんなことになったんや。ちなみに他にもミスがあってコンパイル通らないんですけどね。ここに貼るとご丁寧にシンタックスハイライトがつくのがなおさらおもしろい。</p>
 <p>なにがつらかったかというと現在進行系で全存在が解いてる課題の出力結果なので「なにこれやばすぎwwwwwwwむりwwwwwww」みたいなツイートができなくてただ1人で笑ってるしかなかった。つらすぎて課題管理のgitに「インデントやばすぎて草」「インデントやばすぎて草2」「一旦インデントやめてもろて」ってコミットが残ってる（<strong>全存在はこんなコミットメッセージ絶対真似しないでね</strong>）。これでこのコミットまで引き返した未来の自分も道連れにできるってわけ。今ちょうど一緒に笑ってあげました。にしてもやばいでしょこれ。やばくない？なんでこんなにツボるんだろうね。</p>
 <p>とりあえず過去の私の苦しみをここで開放できて私は幸せです。</p>
-<section class="footnotes" role="doc-endnotes">
+<div class="footnotes" role="doc-endnotes">
 <hr>
 <ol>
-<li id="fn:1" role="doc-endnote">
+<li id="fn:1">
 <p>ぶかいって方言らしいね。サイズが大きいの意。&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 </ol>
-</section>
+</div>
 
 			</div>
 		</div>
 	</div>
 	<div class="footer wrapper">
 	<nav class="nav">
-		<div>2022  © sal_pipr |  <a href="https://github.com/knadh/hugo-ink">Ink</a> theme on <a href="https://gohugo.io">Hugo</a></div>
+		<div>2023  © sal_pipr |  <a href="https://github.com/knadh/hugo-ink">Ink</a> theme on <a href="https://gohugo.io">Hugo</a></div>
 	</nav>
 </div>
 
