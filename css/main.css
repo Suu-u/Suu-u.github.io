@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?ffamily=Zen+Old+Mincho:wght@400;500&display=swap');
 
 body {
-    font-family: "Zen Old Mincho", "游明朝体", "Yu Mincho", YuMincho, "ヒラギノ明朝 Pro", "Hiragino Mincho Pro", serif;
+    font-family: "Zen Old Mincho", "游明朝体", "Yu Mincho", "ヒラギノ明朝 Pro", "Hiragino Mincho Pro", serif;
     font-weight: 400;
     color: #333;
     line-height: 1.8em;
-    font-size: 16px;
+    font-size: 17px;
 }
 
 a {
