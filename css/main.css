@@ -51,7 +51,7 @@ hr {
     height: 1px;
     border: 0;
     border-top: 1px solid #ccc;
-    margin: 1rem 0;
+    margin: 1em 0;
     padding: 0;
 }
 
@@ -80,7 +80,7 @@ table {
   -ms-overflow-style: -ms-autohiding-scrollbar;
   -webkit-overflow-scrolling: touch;
   background-color: transparent;
-  margin-bottom: 1rem;
+  margin-bottom: 1em;
   overflow-x: auto;
   width: 100%;
 }
@@ -88,7 +88,7 @@ table {
 table th,
 table td {
   border-bottom: 1px solid #dee2e6;
-  padding: 0.75rem;
+  padding: 0.75em;
   vertical-align: top;
 }
 
@@ -117,7 +117,7 @@ textarea {
 
 blockquote {
     color: #555;
-    margin-left: 1rem;
+    margin-left: 1em;
     background-color: #f7f7f7;
     border-left: 3px solid;
     border-color: #612433;
@@ -142,27 +142,27 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-    font-size: 2rem;
+    font-size: 2.0em;
 }
 
 h2 {
-    font-size: 1.8rem;
+    font-size: 1.8em;
 }
 
 h3 {
-    font-size: 1.6rem;
+    font-size: 1.6em;
 }
 
 h4 {
-    font-size: 1.2rem;
+    font-size: 1.2em;
 }
 
 h5 {
-    font-size: 1rem;
+    font-size: 1em;
 }
 
 h6 {
-    font-size: 0.8rem;
+    font-size: 0.8em;
 }
 
 .align-center {
@@ -193,7 +193,7 @@ ul.flat li {
 }
 
 .prevent-collapse {
-    min-height: .1rem
+    min-height: .1em
 }
 
 .smaller {
@@ -225,12 +225,12 @@ ul {
 }
 
 .wrapper {
-    max-width: 600px;
+    max-width: 700px;
     margin: 0 auto;
 }
 
 .container {
-    max-width: 640px;
+    max-width: 700px;
     margin-top: 30px;
 }
 
@@ -250,7 +250,7 @@ ul {
     border-radius: 100%;
 }
 .header .site-title {
-    margin: 0.5rem;
+    margin: 0.5em;
 }
     .site-title a {
         color: #111;
@@ -322,7 +322,7 @@ ul {
 }
 
 .section .section-header {
-    font-size: 0.75rem;
+    font-size: 0.75em;
     font-weight: 600;
     text-transform: uppercase;
     color: #999;
@@ -400,31 +400,30 @@ ul {
     display: inline-block;
     border: 1px solid #4c72a4;
     border-radius: 3px;
-    padding: 0px 4px;
+    padding: 0.2em 0.4em;
     color: #4c72a4;
-    line-height: 1.4rem;
+    line-height: 1.4em;
     font-size: 0.85em;
     text-decoration: none;
-    margin: 0 10px 0 0;
+    margin: 0 0.2em 0 0;
 }
 
 .post .tags-preview a {
     display: inline-block;
     border: 1px solid #4c72a4;
     border-radius: 3px;
-    padding: 0px 3px;
+    padding: 0.2em 0.4em;
     color: #4c72a4;
-    line-height: 1.2rem;
+    line-height: 1.2em;
     font-size: 0.7em;
     text-decoration: none;
-    margin: 0 5px 0 0;
 }
 
 .post .info .char {
     color: #999;
     text-align: right;
     font-size: 0.85em;
-    margin: 0 10px 0 0;
+    margin: 0 0.5em;
 }
 
 .list .posts .post-header .meta {
@@ -508,15 +507,15 @@ code {
     }
 
     h2 {
-        font-size: 1.6rem;
+        font-size: 1.6em;
     }
 
     h3 {
-        font-size: 1.2rem;
+        font-size: 1.2em;
     }
 
     h4 {
-        font-size: 1.1rem;
+        font-size: 1.1em;
     }
 
     .container {
