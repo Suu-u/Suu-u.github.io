@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>WACCA on ただの日記にタイトルなんて要るか</title>
-    <link>https://suu-u.github.io/tags/wacca/</link>
+    <link>https://salp.space/tags/wacca/</link>
     <description>Recent content in WACCA on ただの日記にタイトルなんて要るか</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <copyright>© sal_pipr</copyright>
-    <lastBuildDate>Thu, 09 Sep 2021 21:16:30 +0900</lastBuildDate><atom:link href="https://suu-u.github.io/tags/wacca/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 09 Sep 2021 21:16:30 +0900</lastBuildDate><atom:link href="https://salp.space/tags/wacca/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ぴえん〜〜〜</title>
-      <link>https://suu-u.github.io/posts/210909/</link>
+      <link>https://salp.space/posts/210909/</link>
       <pubDate>Thu, 09 Sep 2021 21:16:30 +0900</pubDate>
       
-      <guid>https://suu-u.github.io/posts/210909/</guid>
+      <guid>https://salp.space/posts/210909/</guid>
       <description>13+SSS+出ないよう〜〜〜まま〜〜〜になってました。むずかしいねこのゲーム。
 進捗2
 しばらく13.8,9鳥増やそうかなと pic.twitter.com/iR7IYGlln4
@@ -33,10 +33,10 @@
     
     <item>
       <title>らくがき〜〜〜</title>
-      <link>https://suu-u.github.io/posts/210908/</link>
+      <link>https://salp.space/posts/210908/</link>
       <pubDate>Wed, 08 Sep 2021 21:16:28 +0900</pubDate>
       
-      <guid>https://suu-u.github.io/posts/210908/</guid>
+      <guid>https://salp.space/posts/210908/</guid>
       <description>これでいいのか推しの初描き。いいんです落書きが一番たのしいんですから。
 謎が半分解けたかもしれない #WACCA pic.twitter.com/P3QpOzvte8
 &amp;mdash; ₍₍⁽⁽φ( &amp;#39;༥&amp;#39; )₎₎⁾⁾ (@slpp_bild) September 8, 2021 描いたとおりなんですが、裏ルーン君の謎構造服問題の一部が解決しました。描いた後に気づいたんですけど、首を通した直後に、巻き込んだ後ろ髪を腕を添わせてふぁさっと外に流す例の仕草が発生しますねこれ？？？えっちですね？？？（文字で伝わるのか）
@@ -49,10 +49,10 @@
     
     <item>
       <title>北関東を回る祭り</title>
-      <link>https://suu-u.github.io/posts/210905/</link>
+      <link>https://salp.space/posts/210905/</link>
       <pubDate>Sun, 05 Sep 2021 19:49:12 +0900</pubDate>
       
-      <guid>https://suu-u.github.io/posts/210905/</guid>
+      <guid>https://salp.space/posts/210905/</guid>
       <description>青春18きっぷとやらの残り1枠を友人から貰い受けました。せっかくなのでこの機会に、北関東WACCA行脚を片付けてしまおうと思います。
 阪和線で鍛えられたのもあって、鈍行の端から端まで乗るという行為が元々結構好きだったり1。充電したiPadをお供に、ゆるくラフでも生やしながら大移動をしていきます。
 千葉：柏駅、柏駅前ヤングボウル 9時開店と聞いて。柏駅近くにはここしかゲーセンがないようですね？5階のゲーセンに行こうとエスカレーターを登っていたら、4階の10時開店百均のせいでエスカレーターを登った直後がシャッターで行き止まりと化しており、泣く泣く登りのエスカレーターを逆行して降りて戻るという珍体験をしました。あれはすごい罠だった。
@@ -81,10 +81,10 @@
     
     <item>
       <title>わくわく趣味進捗</title>
-      <link>https://suu-u.github.io/posts/210904/</link>
+      <link>https://salp.space/posts/210904/</link>
       <pubDate>Sat, 04 Sep 2021 19:49:09 +0900</pubDate>
       
-      <guid>https://suu-u.github.io/posts/210904/</guid>
+      <guid>https://salp.space/posts/210904/</guid>
       <description>ちまちまぴいちょんと戯れています。前から実はひっそりと公開していた（そして今もひっそりと公開し続けている）ぴいちょんでWACCAのレート対象曲一覧を出力できるツールがやっとReverseに対応しました1。遅くなってすまんね。
 今まではバージョンをS, L, Rの一文字で管理していたので、まさかの新バージョンReverseが頭文字被りとかいう事実に密かにキレていたりしましたが、対応が遅れていたのは別の理由があってです。というのも、通称「別日追加inf」と呼んでいるんですけれども。
 たとえばQuonは稼働開始収録曲ですが、infernoが追加されたのはWACCA Lilyです。このinfernoは他の難易度と追加バージョンが異なることになりますが、なんとWACCAさんこのバージョンの違いをしっかりレートに反映させているそう。Reverseなら、HELL FLAMEにinfernoが追加されたので、この曲のexpertは旧枠、infernoは新枠対象曲としてレート計算がされることになります。今はこれら含めて5曲別日追加infが存在するのかな？これへの対応が想像以上に面倒くさかった。
@@ -100,10 +100,10 @@ WACCAプレイヤーにぴいちょん環境構築を強いるというとんで
     
     <item>
       <title>継続は力なんでしょうかね</title>
-      <link>https://suu-u.github.io/posts/210901/</link>
+      <link>https://salp.space/posts/210901/</link>
       <pubDate>Wed, 01 Sep 2021 21:51:18 +0900</pubDate>
       
-      <guid>https://suu-u.github.io/posts/210901/</guid>
+      <guid>https://salp.space/posts/210901/</guid>
       <description>相変わらずまたゲーセンに行っております。労働後移動して気がついたら帰れの曲が流れるまでずっとWACCAをしていました。沼というのは恐ろしい。
 今日もいろいろと進捗がありました。
 進捗2
@@ -118,10 +118,10 @@ WACCAを真面目にやり始めたのは去年末だったはずなので、そ
     
     <item>
       <title>大収穫とはこんな日のこと</title>
-      <link>https://suu-u.github.io/posts/210828/</link>
+      <link>https://salp.space/posts/210828/</link>
       <pubDate>Sat, 28 Aug 2021 22:36:01 +0900</pubDate>
       
-      <guid>https://suu-u.github.io/posts/210828/</guid>
+      <guid>https://salp.space/posts/210828/</guid>
       <description>昨日とはうってかわって、今日は進捗がたくさん。まず午前中眼科に行って定期検診とコンタクト注文を終わらせるという。えらい。最近平日は動き回れないので……。
 その足で溝の口へ。先にお昼ご飯を食べました。
 イミグランデの通りのちょっと手前にある「からやま」。よくお世話になる推し唐揚げです。普段は油淋鶏定食を食べるのだけれど、今日は期間限定メニューを。青唐辛子たれの唐揚げに冷しゃぶがついてくるという不思議な代物。
@@ -144,10 +144,10 @@ WACCAを真面目にやり始めたのは去年末だったはずなので、そ
     
     <item>
       <title>鶏肉とかいう最強の畜肉</title>
-      <link>https://suu-u.github.io/posts/210822/</link>
+      <link>https://salp.space/posts/210822/</link>
       <pubDate>Sun, 22 Aug 2021 22:02:51 +0900</pubDate>
       
-      <guid>https://suu-u.github.io/posts/210822/</guid>
+      <guid>https://salp.space/posts/210822/</guid>
       <description>なんだかんだ鶏肉より美味い肉はない。これは日常的にコスパが云々という話ではなく、仮にどんと大金を渡されて好きなだけ肉食ってこいって言われたとき、すなわち金銭的要素がすっとばせる条件下に置かれたときでも、鶏肉を食うのがQOL的に一番賢いという話。または、たとえ積める金が無尽蔵にあったとしても、鶏肉以外の肉で鶏肉の美味さを超えるのは難しいという話。まあ、好みによりますけどね。私は鶏肉が好きです。
 と言いつつ、いきなり飯の写真をあげてしまうと不可抗力飯テロで死者が発生しかねないので先に音ゲー進捗報告を。午前TOEICを受けに三田まで行ったあと、都営三田線から直通京急とかいう爆速がいることに気づいて横ラに向かうとかいうあたまわるいムーブをかます。このおかげでATAMA WARUIのスコアが伸びた。
 ATAMAのWARUさ改善しても銀取れないオチ pic.twitter.com/SOGyDm1VTK
@@ -172,10 +172,10 @@ Stasis調子悪すぎ pic.twitter.com/N5PRMKBckJ
     
     <item>
       <title>もうまともなタイトル思いつかない</title>
-      <link>https://suu-u.github.io/posts/210818/</link>
+      <link>https://salp.space/posts/210818/</link>
       <pubDate>Wed, 18 Aug 2021 22:27:12 +0900</pubDate>
       
-      <guid>https://suu-u.github.io/posts/210818/</guid>
+      <guid>https://salp.space/posts/210818/</guid>
       <description>毎日日記を書くのはよいとしても毎日それっぽいタイトル考えるの面倒なんですよね。どうしようかな。
 しばらく週2WACCA生活を続けようということで、労働後に自由が丘セガに行ってきました。
 ATAMA WARUI予習サボったのでATAMA WARUSUGI pic.twitter.com/XEkT15wovO
@@ -194,10 +194,10 @@ ATAMA WARUI予習サボったのでATAMA WARUSUGI pic.twitter.com/XEkT15wovO
     
     <item>
       <title>喋ることなら無限にある</title>
-      <link>https://suu-u.github.io/posts/210817/</link>
+      <link>https://salp.space/posts/210817/</link>
       <pubDate>Tue, 17 Aug 2021 23:09:30 +0900</pubDate>
       
-      <guid>https://suu-u.github.io/posts/210817/</guid>
+      <guid>https://salp.space/posts/210817/</guid>
       <description>日記を読み返すと書き忘れたことばかりだなあと思うわけです。今日もWACCAのお話が続きます。
 いきなりですが、サビ開幕のメロディの音程が完全八度でジャンプするボーカル曲に沼ってしまうという性癖を自覚しています。なにを言っているのかよくわからない人が過半数だと思うので雑に解説すると、完全八度というのはちょうどドからひとつ上のドにすぐ移動するのと同じ長さの音の幅を表す用語で、これがメロディで出てくると無意識のうちにそれを検知してヘビロテするという機能が🍳には備わっています。全然音ゲー関係ないですがぱっと思いつく例を上げるとこの曲とか。
 このサビ開幕の「もうかんがさえてくやしいわ」の「もう」から「かん」で完全八度ジャンプをしている……はずです（あんまり自信がない）。事実、この曲をほかのずとまよ曲と合わせて短めのプレイリストにして移動中ずっと聞き流していた時期があります。もし歌う側に詳しい人がいるなら、めちゃくちゃ難しいやつだよそれっていうので心当たりがあるかも。
@@ -221,10 +221,10 @@ ATAMA WARUI予習サボったのでATAMA WARUSUGI pic.twitter.com/XEkT15wovO
     
     <item>
       <title>祝！夏休み開始</title>
-      <link>https://suu-u.github.io/posts/210816/</link>
+      <link>https://salp.space/posts/210816/</link>
       <pubDate>Mon, 16 Aug 2021 22:34:47 +0900</pubDate>
       
-      <guid>https://suu-u.github.io/posts/210816/</guid>
+      <guid>https://salp.space/posts/210816/</guid>
       <description>やっと2Qの最終課題が片付きました。人間いざ空き時間が生まれるとやることがなくて困惑するというのはこのことですね。いややることいっぱいあるんですけど。
 ちょびっと日記をリニューアルしました。記事一覧にタグ表示を追加しました。また、タグごとの記事一覧ページをホームと同じレイアウトに統一しました。これからは、記事一覧でどういう内容かがなんとなく予想できるようになります。やったね便利。
 そして、音ゲータグのある記事には追加して機種ごとのタグをくっつけるようにしました。これで、中でどの機種の話をしてるのかがわかりやすいはず。あと、音ゲー記事のうち特に譜面を紹介することに傾倒している記事に譜面紹介タグを追加するようにしました。機種タグ一覧に飛んで譜面紹介記事を探してもよし、譜面紹介記事一覧から機種を探してもよし。たまに音ゲータグだけついてるのは一瞬触れただけでまともなこと喋ってない記事です。今はまだないですが、音ゲー+機種+おえかきタグでその機種に関連するイラストの話をする可能性があります。ぜんぜん違うおえかきの可能性もあります。それはまあガチャってことで。
@@ -254,10 +254,10 @@ Fracture Ray (PRS) Presentだよ。たのしいのでみんなPRSもやろう。
     
     <item>
       <title>世界は残酷である</title>
-      <link>https://suu-u.github.io/posts/210815/</link>
+      <link>https://salp.space/posts/210815/</link>
       <pubDate>Sun, 15 Aug 2021 22:01:47 +0900</pubDate>
       
-      <guid>https://suu-u.github.io/posts/210815/</guid>
+      <guid>https://salp.space/posts/210815/</guid>
       <description>私らは望むものを手に入れられないのだから。……一体何の話？WACCAの話です。どういうことなのかは読むとわかります。では早速。
 8/10に新バージョンWACCA Reverseが稼働開始しました。例のごとく🍳は諸事情で夏休みの平日に遠出ができないので、今日が稼働開始後初のゲーセンでした。横浜ラウンドワン知らない間に7時開店になってて開凸逃した（のを煽られた）の許さん。
 普段どおり新曲楽しみ〜レート枠埋めなきゃ〜って気持ちもあったのですが、今回はそれ以上にヤバい案件がありまして。

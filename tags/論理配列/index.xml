@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>論理配列 on ただの日記にタイトルなんて要るか</title>
-    <link>https://suu-u.github.io/tags/%E8%AB%96%E7%90%86%E9%85%8D%E5%88%97/</link>
+    <link>https://salp.space/tags/%E8%AB%96%E7%90%86%E9%85%8D%E5%88%97/</link>
     <description>Recent content in 論理配列 on ただの日記にタイトルなんて要るか</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <copyright>© sal_pipr</copyright>
-    <lastBuildDate>Wed, 06 Dec 2023 21:31:34 +0900</lastBuildDate><atom:link href="https://suu-u.github.io/tags/%E8%AB%96%E7%90%86%E9%85%8D%E5%88%97/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 06 Dec 2023 21:31:34 +0900</lastBuildDate><atom:link href="https://salp.space/tags/%E8%AB%96%E7%90%86%E9%85%8D%E5%88%97/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>とりあえずなんか書いてみた</title>
-      <link>https://suu-u.github.io/posts/231206/</link>
+      <link>https://salp.space/posts/231206/</link>
       <pubDate>Wed, 06 Dec 2023 21:31:34 +0900</pubDate>
       
-      <guid>https://suu-u.github.io/posts/231206/</guid>
+      <guid>https://salp.space/posts/231206/</guid>
       <description>せっかくいろんな自作キーボードを作ったというのに、それで長文を書く機会をなかなか得られずにいる。
 というのも、実は、椅子に座ってキーボードに腕を構えていざ、と気合を入れて日本語を書くスタイルに慣れていないから。つい昨日出したばかりの記事は、布団の上でスマホで書きあげたのを移植したものだ。遠い話、文芸部に短編を寄稿していたときも、行き帰りの電車でスマホにしたためた文字を帰宅後PCで清書するスタイルだったように思う。
 やはり、なんでもできる薄い板が手に馴染む世代であるからには、「全部スマホで済ましちゃえ」という圧力には逆らえないのかもしれない。実に800日以上毎日日記を更新し続けている猛者が知り合いにいるが、おそらく彼も執筆作業をスマホで完結させることによって、細かな空き時間のうちに更新を済ませているのだろう。（あっもしがっつりPCで書いてるとかだったらごめんね、マジですごいと思う……）
@@ -38,10 +38,10 @@ np crayonのカラフルさを活かしたくてこのツイート時点では�
     
     <item>
       <title>人間卒業計画</title>
-      <link>https://suu-u.github.io/posts/220210/</link>
+      <link>https://salp.space/posts/220210/</link>
       <pubDate>Thu, 10 Feb 2022 07:30:41 +0900</pubDate>
       
-      <guid>https://suu-u.github.io/posts/220210/</guid>
+      <guid>https://salp.space/posts/220210/</guid>
       <description>悪い友人に唆されて、人間を辞めることになった。
 悪い友人というのは、ご察しのとおり以前私にvimを勧めてきた彼のことなわけだが、ニコニコしながらcaps+hjklを使いこなす私を見かねた彼が次に差し出してきたのは「親指シフト」であった。
 親指シフトとは？　詳しい説明は割愛するが、簡単に言うと日本語に特化したニッチな入力方式のことである。かつてはそれ専用のキーボードが存在したりした。左右の親指に独立したキーが必要であり、専用キーボード亡き今はスペースが分割されたキーボードを用いるか、macなら英数キー・かなキーで代用するかなど、一部のファンによる四苦八苦のさまが調べると出てくる。

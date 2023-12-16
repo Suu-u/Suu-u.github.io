@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>ぷよ on ただの日記にタイトルなんて要るか</title>
-    <link>https://suu-u.github.io/tags/%E3%81%B7%E3%82%88/</link>
+    <link>https://salp.space/tags/%E3%81%B7%E3%82%88/</link>
     <description>Recent content in ぷよ on ただの日記にタイトルなんて要るか</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <copyright>© sal_pipr</copyright>
-    <lastBuildDate>Sat, 04 Sep 2021 19:49:09 +0900</lastBuildDate><atom:link href="https://suu-u.github.io/tags/%E3%81%B7%E3%82%88/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 04 Sep 2021 19:49:09 +0900</lastBuildDate><atom:link href="https://salp.space/tags/%E3%81%B7%E3%82%88/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>わくわく趣味進捗</title>
-      <link>https://suu-u.github.io/posts/210904/</link>
+      <link>https://salp.space/posts/210904/</link>
       <pubDate>Sat, 04 Sep 2021 19:49:09 +0900</pubDate>
       
-      <guid>https://suu-u.github.io/posts/210904/</guid>
+      <guid>https://salp.space/posts/210904/</guid>
       <description>ちまちまぴいちょんと戯れています。前から実はひっそりと公開していた（そして今もひっそりと公開し続けている）ぴいちょんでWACCAのレート対象曲一覧を出力できるツールがやっとReverseに対応しました1。遅くなってすまんね。
 今まではバージョンをS, L, Rの一文字で管理していたので、まさかの新バージョンReverseが頭文字被りとかいう事実に密かにキレていたりしましたが、対応が遅れていたのは別の理由があってです。というのも、通称「別日追加inf」と呼んでいるんですけれども。
 たとえばQuonは稼働開始収録曲ですが、infernoが追加されたのはWACCA Lilyです。このinfernoは他の難易度と追加バージョンが異なることになりますが、なんとWACCAさんこのバージョンの違いをしっかりレートに反映させているそう。Reverseなら、HELL FLAMEにinfernoが追加されたので、この曲のexpertは旧枠、infernoは新枠対象曲としてレート計算がされることになります。今はこれら含めて5曲別日追加infが存在するのかな？これへの対応が想像以上に面倒くさかった。
@@ -29,10 +29,10 @@ WACCAプレイヤーにぴいちょん環境構築を強いるというとんで
     
     <item>
       <title>祝！夏休み開始</title>
-      <link>https://suu-u.github.io/posts/210816/</link>
+      <link>https://salp.space/posts/210816/</link>
       <pubDate>Mon, 16 Aug 2021 22:34:47 +0900</pubDate>
       
-      <guid>https://suu-u.github.io/posts/210816/</guid>
+      <guid>https://salp.space/posts/210816/</guid>
       <description>やっと2Qの最終課題が片付きました。人間いざ空き時間が生まれるとやることがなくて困惑するというのはこのことですね。いややることいっぱいあるんですけど。
 ちょびっと日記をリニューアルしました。記事一覧にタグ表示を追加しました。また、タグごとの記事一覧ページをホームと同じレイアウトに統一しました。これからは、記事一覧でどういう内容かがなんとなく予想できるようになります。やったね便利。
 そして、音ゲータグのある記事には追加して機種ごとのタグをくっつけるようにしました。これで、中でどの機種の話をしてるのかがわかりやすいはず。あと、音ゲー記事のうち特に譜面を紹介することに傾倒している記事に譜面紹介タグを追加するようにしました。機種タグ一覧に飛んで譜面紹介記事を探してもよし、譜面紹介記事一覧から機種を探してもよし。たまに音ゲータグだけついてるのは一瞬触れただけでまともなこと喋ってない記事です。今はまだないですが、音ゲー+機種+おえかきタグでその機種に関連するイラストの話をする可能性があります。ぜんぜん違うおえかきの可能性もあります。それはまあガチャってことで。
@@ -62,10 +62,10 @@ Fracture Ray (PRS) Presentだよ。たのしいのでみんなPRSもやろう。
     
     <item>
       <title>なにもない日はTLの備忘録を書こう</title>
-      <link>https://suu-u.github.io/posts/210812/</link>
+      <link>https://salp.space/posts/210812/</link>
       <pubDate>Thu, 12 Aug 2021 21:45:20 +0900</pubDate>
       
-      <guid>https://suu-u.github.io/posts/210812/</guid>
+      <guid>https://salp.space/posts/210812/</guid>
       <description>今日のTLはおもしろかったので。というか私が変なこと言い出しただけですけど。
 発端は鴨のツイート。
 労働後にこれを読んだ🍳が騒ぎ始める。
@@ -86,10 +86,10 @@ Fracture Ray (PRS) Presentだよ。たのしいのでみんなPRSもやろう。
     
     <item>
       <title>ブログってコメント機能あるよね</title>
-      <link>https://suu-u.github.io/posts/210803/</link>
+      <link>https://salp.space/posts/210803/</link>
       <pubDate>Tue, 03 Aug 2021 07:30:54 +0900</pubDate>
       
-      <guid>https://suu-u.github.io/posts/210803/</guid>
+      <guid>https://salp.space/posts/210803/</guid>
       <description>あれって使ってる人いるの？って感想が湧くのは、SNSが当たり前になった今だからなんだろうな。同世代では比較的ネットに入り浸るのが早かったとはいえ、個人サイト巡回生活から直接SNS文化に入ってしまったのでブログ全盛期の感覚がわからない。
 そういえば初日にお借りしてるテンプレートがデフォルトで存じ上げないコメントサービスへのリンクを記事末尾に貼っ付けるようになってて、うおおおおやめてくれえええなんて言いながらとりあえずhtml一部分消し飛ばした記憶。コメントがここにつく必要ないんですよねなんてったってただの日記ですから。今のあたしにはtwitterなる文明の利器1があるんですよおにいさん。
 有象無象のブログサービスを漁りながら思い至った話。
@@ -113,10 +113,10 @@ pic.twitter.com/lThUnVlxSn
     
     <item>
       <title>ちなみにまだ夏休みじゃない</title>
-      <link>https://suu-u.github.io/posts/210801/</link>
+      <link>https://salp.space/posts/210801/</link>
       <pubDate>Sun, 01 Aug 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://suu-u.github.io/posts/210801/</guid>
+      <guid>https://salp.space/posts/210801/</guid>
       <description>存在共が夏休みの日記を書くらしい1ので、今年は自分も便乗してみることにする。
 ↑素で書いたけどこの書き出しほぼ土佐日記で草。いつの時代も存在はこういう軽いノリで日記を始めるらしい。
 毎年書き始めて毎年途中で辞めてる有識者によると、虚無な日が続いて書くことがなくなるとモチベが消滅して続かないらしい。そんなん適当にArcaeaのpresent埋めでもやってこの譜面つまらん！wとでも書きゃええんとちゃうのと思ったが、もしかすると何かの罠があって本当に続かないかもしれないので、一回自分で実験してみようという試み。別所でブログを7日連続更新したことがあるけど、今回はどうなるかね。

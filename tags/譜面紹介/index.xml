@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>譜面紹介 on ただの日記にタイトルなんて要るか</title>
-    <link>https://suu-u.github.io/tags/%E8%AD%9C%E9%9D%A2%E7%B4%B9%E4%BB%8B/</link>
+    <link>https://salp.space/tags/%E8%AD%9C%E9%9D%A2%E7%B4%B9%E4%BB%8B/</link>
     <description>Recent content in 譜面紹介 on ただの日記にタイトルなんて要るか</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <copyright>© sal_pipr</copyright>
-    <lastBuildDate>Fri, 27 Aug 2021 00:51:35 +0900</lastBuildDate><atom:link href="https://suu-u.github.io/tags/%E8%AD%9C%E9%9D%A2%E7%B4%B9%E4%BB%8B/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 27 Aug 2021 00:51:35 +0900</lastBuildDate><atom:link href="https://salp.space/tags/%E8%AD%9C%E9%9D%A2%E7%B4%B9%E4%BB%8B/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>やっぱり鶏肉は素晴らしかった2</title>
-      <link>https://suu-u.github.io/posts/210827/</link>
+      <link>https://salp.space/posts/210827/</link>
       <pubDate>Fri, 27 Aug 2021 00:51:35 +0900</pubDate>
       
-      <guid>https://suu-u.github.io/posts/210827/</guid>
+      <guid>https://salp.space/posts/210827/</guid>
       <description>疲れで夕飯準備が面倒になってしまって、またうーばーいーちゅしてしまうという。
 また鶏肉です。自炊で鶏肉を調理したことのある人ならわかる、企業様の課金があって初めて実現する絶妙なぷりっぷり加減。これまた絶妙な柔らかさのブロッコリー。蒸し鶏くらい自分で作れよって思うじゃないですか？違うんです。蒸し鶏を自分で調理しうる人間だからこそわかる価値、自力での再現不可能さがここにはあります。宅配オンリーなのが本当に勿体ない、店頭で買えるなら毎日通ってる。
 野菜と鶏肉って、体が癒される感じがしていいですね。炭水化物ばっかり食べてるとこういう食事も取りたくなります。
@@ -26,10 +26,10 @@
     
     <item>
       <title>金曜日って素晴らしい</title>
-      <link>https://suu-u.github.io/posts/210820/</link>
+      <link>https://salp.space/posts/210820/</link>
       <pubDate>Fri, 20 Aug 2021 21:17:38 +0900</pubDate>
       
-      <guid>https://suu-u.github.io/posts/210820/</guid>
+      <guid>https://salp.space/posts/210820/</guid>
       <description>たとえ夏休みであれど金曜日って素晴らしい。まあ毎日労働してるからなんですけどね。
 今週例の人外少年のせいでめちゃくちゃproductivity落ちててやばかったんですが、丁度周期的な体調不良と衝突していたのが裏の原因だったということが判明しました。来週はちょっとましになると信じたい。
 本当は今週から真の夏休みで溜まりに溜まったおえかきお題を消化していくつもりだったんですが、恐ろしいことに一瞬たりとも筆を握れませんでした。しょたショック恐るべし。このしょた本人もお題スタック？キュー？に積まれてしまったわけですが、そもそも遡ると2Q期末前の7月中旬に積んだお題から一切消化できてないし、そもそもWACCAアプデの前にあったグルコス10周年関連お題を一切消化できてないし、この一週間ぶっ倒れてるうちにArcaeaがまた新パートナーぶち込んでくるし、そういやダンマクカグラで描きたいキャラ数発散してるしでてんやわんやな上、そろそろ美少女達で積んでるあるネタも消化しないと夏が終わってしまうという恐怖。おまけにこれら9月中に消化しないと夏休みが終わるので取れる時間が急激に減っておそらくお蔵入りになってしまう。なにこれ。忙しすぎ。だれかたすけてくれ。
@@ -48,10 +48,10 @@
     
     <item>
       <title>祝！夏休み開始</title>
-      <link>https://suu-u.github.io/posts/210816/</link>
+      <link>https://salp.space/posts/210816/</link>
       <pubDate>Mon, 16 Aug 2021 22:34:47 +0900</pubDate>
       
-      <guid>https://suu-u.github.io/posts/210816/</guid>
+      <guid>https://salp.space/posts/210816/</guid>
       <description>やっと2Qの最終課題が片付きました。人間いざ空き時間が生まれるとやることがなくて困惑するというのはこのことですね。いややることいっぱいあるんですけど。
 ちょびっと日記をリニューアルしました。記事一覧にタグ表示を追加しました。また、タグごとの記事一覧ページをホームと同じレイアウトに統一しました。これからは、記事一覧でどういう内容かがなんとなく予想できるようになります。やったね便利。
 そして、音ゲータグのある記事には追加して機種ごとのタグをくっつけるようにしました。これで、中でどの機種の話をしてるのかがわかりやすいはず。あと、音ゲー記事のうち特に譜面を紹介することに傾倒している記事に譜面紹介タグを追加するようにしました。機種タグ一覧に飛んで譜面紹介記事を探してもよし、譜面紹介記事一覧から機種を探してもよし。たまに音ゲータグだけついてるのは一瞬触れただけでまともなこと喋ってない記事です。今はまだないですが、音ゲー+機種+おえかきタグでその機種に関連するイラストの話をする可能性があります。ぜんぜん違うおえかきの可能性もあります。それはまあガチャってことで。
