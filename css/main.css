@@ -259,6 +259,9 @@ ul {
     .site-title a:hover {
         border-bottom-width: 3px;
     }
+    .site-title span {
+        display: inline-block;
+    }
 
 .header .site-description {
     display: flex;
@@ -375,6 +378,9 @@ ul {
 .post-header h1.title {
     margin: -10px 0 0 0;
 }
+    .post-header span {
+        display: inline-block;
+    }
 
 .post .title.small {
     margin: 0 0 10px 0;
