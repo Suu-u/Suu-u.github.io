@@ -61,6 +61,14 @@ html.dark .site-title a {
   text-decoration: none !important;
 }
 
+html.dark .post .post-header .meta a:not(:hover) {
+    color: #eee;
+}
+
+html.dark .post .post-header .meta a:hover {
+    color: #edadc8;
+}
+
 html.dark .header nav,
 html.dark .footer {
   border-color: #333;
