@@ -149,15 +149,15 @@ h1 {
 }
 
 h2 {
-    font-size: 1.8em;
+    font-size: 1.4em;
 }
 
 h3 {
-    font-size: 1.6em;
+    font-size: 1.2em;
 }
 
 h4 {
-    font-size: 1.2em;
+    font-size: 1em;
 }
 
 h5 {
@@ -208,11 +208,15 @@ ul {
 }
 
 .post ul li {
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 .post ul li p {
     display: inline;
+}
+
+.post ul li::marker{
+    content: "・ ";
 }
 
 .highlight pre {
@@ -514,14 +518,6 @@ code {
 @media (max-width: 750px) {
     body {
         padding: 20px;
-    }
-
-    h2 {
-        font-size: 1.6em;
-    }
-
-    h3 {
-        font-size: 1.2em;
     }
 
     .container {
